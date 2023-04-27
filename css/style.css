@@ -23,6 +23,7 @@ body{
 header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
+
 }
 
 footer{
@@ -80,7 +81,16 @@ footer{
 .xlarge{
     width: 100%;
     min-height: 300px;
-    border: 1px dashed darkblue;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    color: white;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 3rem;
 }
 
 .xxlarge{
@@ -157,4 +167,29 @@ a{
     justify-content: center;
     justify-content: space-between;
     background-color: turquoise;
+}
+
+/* Jumbotron Section */
+
+.xlarge button{
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+}
+
+#client-download{
+    background-color: #fff; 
+    
+}
+
+#web-client{
+background-color: rgb(35,39,42);
+color: white;
+
 }
