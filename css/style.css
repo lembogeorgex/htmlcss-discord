@@ -1,9 +1,13 @@
 /* Generics */
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 p{
@@ -26,7 +30,7 @@ header{
 }
 
 footer{
-    background-color: gray;
+    background-color: #23272A
 }
 /* Utilities */
 
@@ -95,11 +99,12 @@ h1{
 .xxlarge{
     width: 100%;
     min-height: 500px;
-    background-color:indigo;
-    border: 1px dashed yellow;
+    text-align: center;
 }
 
-
+.xxlarge h1{
+    font-size: 28px;
+}
 /* Header */
 
 nav{
@@ -141,17 +146,24 @@ a{
 
 }
 
+
+.mac-download{
+    color: white;
+    background-color: #8EA1E1;  
+    border: 1px solid transparent;
+    border-radius: 30px;    
+    padding: 10px 20px;  
+    margin-top: 5px;   
+    margin-bottom: 5px;
+}
 /* Sections relative properties*/
 
 .negative{
-    background-color: rgb(196, 237, 100);
+    background-color: rgb(246,246,246);
     
 }
 
-.big{
-    background-color: indianred;
-    
-}
+
 
 #smallfooter{
     width: 100%;
@@ -184,4 +196,38 @@ a{
 background-color: rgb(35,39,42);
 color: white;
 
+}
+
+/* Grey Section Properties */
+
+.wave{
+    display: block;
+    color:rgb(246,246,246);
+}
+
+.wave-rotate{
+    rotate: 0.5turn;
+    display: block;
+    color:rgb(246,246,246);
+}
+
+
+.med h1{
+    color: rgb(114,137,218);
+    font-size: 2.5rem;
+}
+
+.med img{
+    width: 25px;
+    display: inline-block;
+}
+
+.xxlarge p{
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+.med p{
+    display: inline-block;
+    color: white;
 }
