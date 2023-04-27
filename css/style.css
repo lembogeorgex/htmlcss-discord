@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -20,7 +21,8 @@ body{
 }
 
 header{
-    background-color: brown;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 footer{
@@ -42,6 +44,7 @@ footer{
     justify-content: center;
 }
 
+
 /* Block sizes */
 
 
@@ -53,9 +56,10 @@ footer{
 }
 .small{
    width: 25%;
-   min-height:100px;
-   border: 1px dashed darkblue;
+   height: 50px;
    margin: 0;
+   text-align: center;
+   line-height: 50px;
 }
 .med{
     width: 40%;
@@ -76,7 +80,6 @@ footer{
 .xlarge{
     width: 100%;
     min-height: 300px;
-    background-color: violet;
     border: 1px dashed darkblue;
 }
 
@@ -92,25 +95,45 @@ footer{
 
 nav{
     width: 70%;
-    min-height: var(--xl);
-    background-color: cyan ;
-    border: 1px dashed darkblue;
 }
 
 .logo, .login{
     width: 15%;
     min-height: var(--xl);
-    background-color: cyan;
-    border: 1px dashed darkblue;
     
+}
+
+.logo{
+    background-image: url("/img/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+.login button{
+    background-color: white;
+    color: black;  
+    border: 1px solid black;
+    border-radius: 30px;    
+    padding: 10px 20px;  
+    margin-top: 5px;   
+    margin-bottom: 5px;
+
 }
 
 /* Sections relative properties*/
 
-.jumbotron{
-    background-color: aquamarine;
-   
-}
 
 
 .positive{
