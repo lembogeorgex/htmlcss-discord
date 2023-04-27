@@ -6,9 +6,8 @@
     font-family: sans-serif;
 }
 
-
-body{
-    background-color: bisque;
+p{
+    line-height: 1.5;
 }
 
 .container{
@@ -46,7 +45,7 @@ footer{
 }
 
 
-/* Block sizes */
+/* Block sizes and contain settings */
 
 
 .xxs{
@@ -65,17 +64,15 @@ footer{
 .med{
     width: 40%;
     min-height: 300px;
-    background-color: darkolivegreen;
-    border: 1px dashed darkblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
 
 
 }
 .large{
     width: 60%;
     min-height:300px;
-    background-color: chocolate;
-    border: 1px dashed darkblue;
-
 }
 
 .xlarge{
@@ -87,6 +84,8 @@ footer{
     padding: 20px;
     color: white;
 }
+
+
 
 h1{
     padding-bottom: 20px;
@@ -143,13 +142,6 @@ a{
 }
 
 /* Sections relative properties*/
-
-
-
-.positive{
-    background-color: cadetblue;
-    
-}
 
 .negative{
     background-color: rgb(196, 237, 100);
