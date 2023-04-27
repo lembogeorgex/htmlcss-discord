@@ -23,15 +23,7 @@ p{
 
 }
 
-header{
-    background-image: url("../img/jumbo.png");
-    background-size: cover;
 
-}
-
-footer{
-    background-color: #23272A
-}
 /* Utilities */
 
 :root{
@@ -105,7 +97,18 @@ h1{
 .xxlarge h1{
     font-size: 28px;
 }
+
+
+
+
 /* Header */
+header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+
+
+}
+
 
 nav{
     width: 70%;
@@ -156,6 +159,16 @@ a{
     margin-top: 5px;   
     margin-bottom: 5px;
 }
+
+
+/* Footer */
+footer{
+    background-color: #23272A
+}
+
+
+
+
 /* Sections relative properties*/
 
 .negative{
@@ -229,7 +242,6 @@ color: white;
 
 .med p{
     display: inline-block;
-    color: white;
     vertical-align: middle;
     
 }
@@ -272,4 +284,9 @@ color: white;
     border: 1px solid transparent;
     border-radius: 30px;    
     padding: 10px 20px;
+}
+
+
+.med-footer{
+    color: white;
 }
