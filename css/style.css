@@ -1,0 +1,137 @@
+/* Generics */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: var(--m);
+    padding-bottom: var(--m);
+
+
+}
+
+header{
+    background-color: brown;
+}
+
+footer{
+    background-color: gray;
+}
+/* Utilities */
+
+:root{
+    --xs: 5px;
+    --s: 10px;
+    --m: 20px;
+    --l: 30px;
+    --xl: 50px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+/* Block sizes */
+
+
+.xxs{
+    width: 50px;
+    height: 25px;
+    background-color: lime;
+
+}
+.small{
+   width: 25%;
+   min-height:100px;
+   border: 1px dashed darkblue;
+   margin: 0;
+}
+.med{
+    width: 40%;
+    min-height: 300px;
+    background-color: darkolivegreen;
+    border: 1px dashed darkblue;
+
+
+}
+.large{
+    width: 60%;
+    min-height:300px;
+    background-color: chocolate;
+    border: 1px dashed darkblue;
+
+}
+
+.xlarge{
+    width: 100%;
+    min-height: 300px;
+    background-color: violet;
+    border: 1px dashed darkblue;
+}
+
+.xxlarge{
+    width: 100%;
+    min-height: 500px;
+    background-color:indigo;
+    border: 1px dashed yellow;
+}
+
+
+/* Header */
+
+nav{
+    width: 70%;
+    min-height: var(--xl);
+    background-color: cyan ;
+    border: 1px dashed darkblue;
+}
+
+.logo, .login{
+    width: 15%;
+    min-height: var(--xl);
+    background-color: cyan;
+    border: 1px dashed darkblue;
+    
+}
+
+/* Sections relative properties*/
+
+.jumbotron{
+    background-color: aquamarine;
+   
+}
+
+
+.positive{
+    background-color: cadetblue;
+    
+}
+
+.negative{
+    background-color: rgb(196, 237, 100);
+    
+}
+
+.big{
+    background-color: indianred;
+    
+}
+
+#smallfooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: turquoise;
+}
